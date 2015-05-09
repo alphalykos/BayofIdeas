@@ -1,0 +1,201 @@
+.headings{ position:absolute; top:10%;left:50%;width:600px;margin-left:-300px;}
+
+#navibar
+{
+	ffb732
+}
+
+#heading1 {
+	font-size: 70px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+	/* Keyframinte kali */
+	-moz-animation-name: dropHeader ;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+    -moz-animation-duration: 0.7s;
+
+    -webkit-animation-name: dropHeader ;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-duration: 0.7s;
+
+
+    animation-name: dropHeader ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.7s;
+}
+
+#heading2{
+	font-size: 16px;
+	font-style:italic;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	margin-left: 200px;
+	opacity:0;
+	
+	
+		/* Keyframinte kali */
+	-moz-animation-name: dropHead2 ;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+	-moz-animation-delay:1s;
+    -moz-animation-duration: 0.7s;
+	-moz-animation-fill-mode: forwards;
+
+    -webkit-animation-name: dropHead2 ;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+    -webkit-animation-delay:1s;
+	-webkit-animation-duration: 0.7s;
+	-webkit-animation-fill-mode: forwards;
+
+
+    animation-name: dropHead2 ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+	animation-delay:1s;
+    animation-duration: 0.7s;
+	animation-fill-mode: forwards;
+}
+.textc
+{
+	font-size: 30px;
+	
+	opacity:0;
+	
+		/* Keyframinte kali */
+	-moz-animation-name: dropTexts ;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-in;
+	
+    -moz-animation-duration: 0.7s;
+	-moz-animation-fill-mode: forwards;
+	
+    -webkit-animation-name: dropTexts ;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in;
+
+    -webkit-animation-duration: 0.7s;
+	-webkit-animation-fill-mode: forwards;
+
+    animation-name: dropTexts ;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+
+    animation-duration: 0.7s;
+	animation-fill-mode: forwards;
+		
+}
+#texts
+{
+	margin-top: 110px;
+	margin-bottom:40px;
+}
+
+#text1{	-moz-animation-delay:2s;	-webkit-animation-delay:2s;	animation-delay:2s;}
+#text2{	-moz-animation-delay:3s;	-webkit-animation-delay:3s;	animation-delay:3s;}
+#text3{	-moz-animation-delay:4s;	-webkit-animation-delay:4s;	animation-delay:4s;}
+#text4{	-moz-animation-delay:5s;	-webkit-animation-delay:5s;	animation-delay:5s;}
+#text5{	-moz-animation-delay:6s;	-webkit-animation-delay:6s;	animation-delay:6s;}
+#text6{	-moz-animation-delay:7s;	-webkit-animation-delay:7s;	animation-delay:7s;}
+#text7{	-moz-animation-delay:8s;	-webkit-animation-delay:8s;	animation-delay:8s;}
+
+
+#contact
+{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+
+/* Mozilla Keyframe dropHeader created */
+@-moz-keyframes dropHeader {
+    0% {
+        -moz-transform: translateY(200px);
+    }
+    100% {
+        -moz-transform: translateY(20px);
+    }
+}
+/* Webkit Keyframe dropHeader created */
+@-webkit-keyframes dropHeader {
+    0% {
+        -webkit-transform: translateY(200px);
+    }
+    100% {
+        -webkit-transform: translateY(20px);
+    }
+}
+/* IE */
+@keyframes dropHeader {
+    0% {
+        transform: translateY(200px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+/* Mozilla Keyframe dropHead2 created */
+@-moz-keyframes dropHead2 {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* Webkit Keyframe dropHead2 created */
+@-webkit-keyframes dropHead2 {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE  */
+@keyframes dropHead2 {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+/* Mozilla Keyframe dropTexts created */
+@-moz-keyframes dropTexts {
+    0% {
+
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* Webkit Keyframe dropTexts created */
+@-webkit-keyframes dropTexts {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+/* IE */
+@keyframes dropTexts {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+
